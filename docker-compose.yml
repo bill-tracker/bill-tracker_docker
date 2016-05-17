@@ -1,0 +1,17 @@
+version: '2'
+services:
+  db:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile-postgres
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile-python
+    command: sh docker/init.sh
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db

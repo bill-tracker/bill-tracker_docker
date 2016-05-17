@@ -1,0 +1,4 @@
+FROM postgres:9.5.2
+ENV POSTGRES_DB bill_tracker_db
+ENV POSTGRES_USER bill_tracker_user
+ENV POSTGRES_PASSWORD (-^z2!4_8_ltz@@6*4ha3sk(69s5x!d@3wp4si(0zch_vku&je
