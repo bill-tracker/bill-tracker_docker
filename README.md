@@ -24,7 +24,7 @@ https://docs.docker.com/compose/install/
 
 **2. Clone our repo:**
 
-    git clone https://github.com/bill-tracker/bill-tracker.git ./bill-tracker && cd bill-tracker
+    git clone https://github.com/bill-tracker/bill-tracker_docker.git ./bill-tracker && cd bill-tracker
 
 **3. Run server (give it some time on the first time):**
 
