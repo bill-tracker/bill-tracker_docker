@@ -42,10 +42,13 @@ Go to: http://localhost:8000/
 ## <a name="learning"></a>Learning Resources
 
 **Python**
+
 [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
+
 [Google's Python Class](https://developers.google.com/edu/python/)
 
 **Django**
+
 [PyLadiesATX's Intro to Django workshop](https://github.com/sarasafavi/introdjango)
 
 ## <a name="team-members-2015"></a>2015 Team Members
