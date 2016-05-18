@@ -4,6 +4,7 @@
 
 * [Top Priority Issues](#top-priority-issues)
 * [Getting Started](#getting-started)
+* [Learning Resources](#learning)
 * [Team Members - 2015](#team-members-2015)
 
 ## <a name="top-priority-issues"></a>Top Priority Issues
@@ -37,6 +38,15 @@ Go to: http://localhost:8000/
 **Django shell** (Optional, good for checking the contents of the models during development or testing, or just generally trying things out):
 
     python manage.py shell
+
+## <a name="learning"></a>Learning Resources
+
+**Python**
+[Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
+[Google's Python Class](https://developers.google.com/edu/python/)
+
+**Django**
+[PyLadiesATX's Intro to Django workshop](https://github.com/sarasafavi/introdjango)
 
 ## <a name="team-members-2015"></a>2015 Team Members
 
