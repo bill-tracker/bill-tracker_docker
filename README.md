@@ -86,5 +86,70 @@ Go to: http://localhost:8000/
 Our Texas 4-Step Process<sup>TM</sup> and this Docker container was made
 possible by the
 [Docker Compose and Django Quickstart Guide](https://docs.docker.com/compose/django/).
-(Thank the contributors that you don't need to install Python on your machine
-among other things)
+(Thank the contributors that you don't need to install and configure Python and 
+PostgreSQL on your machine, among other things)
+
+## <a name="getting-started-no-docker"></a>Getting Started on your Local Computer<br />Without Docker
+
+**Install Python 3:**
+
+https://www.python.org/downloads/ or
+
+http://conda.pydata.org/miniconda.html
+
+Note: The core team will develop this project in Python 3, so it is recommended 
+that you do the same.
+
+**Instal Git:**
+
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+**Clone our repo:**
+
+    git clone https://github.com/bill-tracker/bill-tracker_docker.git ./bill-tracker && cd bill-tracker
+
+**Install PostgreSQL:**
+
+http://www.postgresql.org/download/
+
+**Install Psycopg:**
+
+http://initd.org/psycopg/docs/install.html
+
+**Install all *local* dependencies:**
+
+    pip install -r requirements.txt
+
+or (needs verification):
+
+https://groups.google.com/a/continuum.io/forum/#!topic/conda/PiM9sjWyXFU
+
+    conda create -n new environment --file requirements_local.txt
+
+Or, you can install the dependencies manually if you wish / need.
+
+**Initialization:**
+
+    python manage.py migrate
+
+**Run server:**
+
+    python manage.py runserver
+
+**Check out this app on your browser:**
+
+Go to: http://localhost:8000/
+
+**Django shell** (Optional, good for checking the contents of the models during development or testing, or just generally trying things out):
+
+    python manage.py shell
+
+**Alternative method if the above doesn't work for you**
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
+
+python3 manage.py flush
+```
