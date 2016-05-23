@@ -24,6 +24,15 @@ If you have any questions about anything or need help getting started, you'll pr
 
 https://docs.docker.com/compose/install/
 
+Note: Docker has the following requirements:
+
+* Windows 64-bit with virtualization enabled, or
+* Mac OS X 10.8 “Mountain Lion” or later, or
+* Linux 64-bit with kernel version 3.10 or later
+
+If you are unable to fulfill any of these requirements, you will need to instead
+[use the old instructions for getting started](#getting-started-no-docker).
+
 **2. Instal Git:**
 
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
